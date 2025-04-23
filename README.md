@@ -37,3 +37,5 @@ uvicorn main:app --host 0.0.0.0 --port 8080
 ```
 ### 어시스턴트 사용
 -위의 서버 구동 후에 autogen의 endpoint에 갖을 넣어야 한다. (text, voice 두가지로 나눠져 있음)
+1) 음성파일을 사용하는 경우 -> http://0.0.0.0:8080/receive-voice
+2) 텍스트만 사용하는 경우   -> http://0.0.0.0:8080/receive-text
