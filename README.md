@@ -26,8 +26,7 @@ playwright install
 
 ### 세팅 참고 링크
 - [AutoGen 공식 Github](https://github.com/microsoft/autogen)
-# 싫앵버
-
+# 실행법
 ## mcp 서버
 ```
 python mcp_server.py
@@ -36,3 +35,5 @@ python mcp_server.py
 ```
 uvicorn main:app --host 0.0.0.0 --port 8080
 ```
+### 어시스턴트 사용
+-위의 서버 구동 후에 autogen의 endpoint에 갖을 넣어야 한다. (text, voice 두가지로 나눠져 있음)
