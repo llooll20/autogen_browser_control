@@ -26,3 +26,13 @@ playwright install
 
 ### 세팅 참고 링크
 - [AutoGen 공식 Github](https://github.com/microsoft/autogen)
+# 싫앵버
+
+## mcp 서버
+```
+python mcp_server.py
+```
+## autogen 서버
+```
+uvicorn main:app --host 0.0.0.0 --port 8080
+```
